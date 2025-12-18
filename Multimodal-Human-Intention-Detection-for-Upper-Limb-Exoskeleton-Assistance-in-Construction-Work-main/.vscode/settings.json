@@ -1,0 +1,13 @@
+{
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnusedImport": "none",
+        "reportUnusedVariable": "none",
+        "reportPrivateImportUsage": "none"
+    },
+    "python.analysis.extraPaths": [
+        "./Imports",
+        "./Imports/Models"
+    ]
+}
+

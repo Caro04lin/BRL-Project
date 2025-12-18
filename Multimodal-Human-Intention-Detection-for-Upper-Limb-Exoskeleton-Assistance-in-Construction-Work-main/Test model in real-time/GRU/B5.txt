@@ -1,0 +1,107 @@
+Sample_4 : Bimanual_Prepare | Tool: None at 10.07 (-7.77)
+Sample_5 : Bimanual_Prepare | Tool: brush at 12.35
+Sample_6 : Bimanual_Up | Tool: None at 14.57
+Sample_7 : Bimanual_Up | Tool: None at 16.8
+Sample_8 : Bimanual_Up | Tool: None at 19.1
+Sample_6 : Bimanual_Up | Tool: None at 14.57 (-12.36)
+Sample_7 : Bimanual_Up | Tool: None at 16.88
+Sample_8 : Bimanual_Up | Tool: None at 19.27
+Sample_4 : Bimanual_Down | Tool: None at 10.51 (-8.12)
+Sample_5 : Bimanual_Up | Tool: None at 12.9
+Sample_6 : Bimanual_Up | Tool: None at 15.13
+Sample_7 : Bimanual_Up | Tool: None at 17.44
+Sample_8 : Bimanual_Up | Tool: None at 19.72
+Sample_4 : Bimanual_Prepare | Tool: brush at 10.49 (-8.05)
+Sample_5 : Bimanual_Down | Tool: None at 12.83
+Sample_6 : Bimanual_Up | Tool: None at 15.07
+Sample_7 : Bimanual_Up | Tool: None at 17.34
+Sample_8 : Bimanual_Up | Tool: None at 19.62
+Sample_9 : Bimanual_Up | Tool: None at 21.95
+Sample_4 : Bimanual_Right | Tool: None at 10.42 (-8.16)
+Sample_5 : Bimanual_Up | Tool: None at 12.82
+Sample_6 : Bimanual_Up | Tool: None at 15.13
+Sample_7 : Bimanual_Up | Tool: None at 17.47
+Sample_3 : Bimanual_Down | Tool: None at 7.64 (-5.08)
+Sample_4 : Bimanual_Down | Tool: None at 10.05
+Sample_5 : Bimanual_Up | Tool: None at 12.3
+Sample_6 : Bimanual_Up | Tool: None at 14.53
+Sample_7 : Bimanual_Up | Tool: None at 16.81
+Sample_4 : Bimanual_Up | Tool: None at 10.46 (-8.02)
+Sample_5 : Bimanual_Up | Tool: None at 12.82
+Sample_6 : Bimanual_Up | Tool: None at 15.07
+Sample_7 : Bimanual_Up | Tool: None at 17.38
+Sample_8 : Bimanual_Up | Tool: None at 19.7
+Sample_9 : Bimanual_Up | Tool: None at 22.0
+Sample_10 : Bimanual_Up | Tool: None at 24.38
+Sample_2 : Bimanual_Down | Tool: None at 5.18 (-2.9)
+Sample_3 : Bimanual_Up | Tool: None at 7.63
+Sample_4 : Bimanual_Down | Tool: brush at 10.05
+Sample_5 : Bimanual_Right | Tool: brush at 12.47
+Sample_6 : Bimanual_Up | Tool: None at 15.26
+Sample_7 : Bimanual_Up | Tool: None at 17.54
+Sample_5 : Bimanual_Up | Tool: None at 10.05 (-8.12)
+Sample_6 : Bimanual_Up | Tool: None at 12.01
+Sample_7 : Bimanual_Down | Tool: None at 13.94
+Sample_8 : Bimanual_Down | Tool: None at 15.87
+Sample_9 : Bimanual_Up | Tool: None at 17.81
+Sample_10 : Bimanual_Up | Tool: None at 19.78
+Sample_11 : Bimanual_Up | Tool: None at 21.77
+Sample_4 : Bimanual_Up | Tool: None at 8.41 (-6.35)
+Sample_5 : Bimanual_Up | Tool: None at 10.48
+Sample_6 : Bimanual_Up | Tool: None at 12.53
+Sample_7 : Bimanual_Up | Tool: None at 14.55
+Sample_1 : Bimanual_Up | Tool: None at 3.02
+Sample_2 : Bimanual_Up | Tool: None at 5.59
+Sample_3 : Bimanual_Up | Tool: None at 8.0
+Sample_4 : Bimanual_Up | Tool: None at 10.56
+Sample_2 : Bimanual_Up | Tool: None at 4.29 (-2.32)
+Sample_3 : Bimanual_Up | Tool: None at 6.33
+Sample_4 : Bimanual_Up | Tool: None at 8.45
+Sample_5 : Bimanual_Up | Tool: None at 10.44
+Sample_2 : Bimanual_Up | Tool: None at 4.2 (-2.31)
+Sample_3 : Bimanual_Down | Tool: None at 6.31
+Sample_4 : Bimanual_Up | Tool: None at 8.39
+Sample_5 : Bimanual_Up | Tool: None at 10.4
+Sample_2 : Bimanual_Up | Tool: None at 5.65 (-3.19)
+Sample_3 : Bimanual_Up | Tool: None at 8.13
+Sample_4 : Bimanual_Up | Tool: None at 10.44
+Sample_5 : Bimanual_Up | Tool: None at 12.9
+Sample_6 : Bimanual_Up | Tool: None at 15.41
+Sample_7 : Bimanual_Up | Tool: None at 18.11
+Sample_8 : Bimanual_Up | Tool: None at 20.7
+Sample_9 : Bimanual_Up | Tool: None at 23.4
+Sample_1 : Bimanual_Down | Tool: None at 2.94
+Sample_2 : Bimanual_Up | Tool: None at 5.28
+Sample_3 : Bimanual_Up | Tool: None at 7.62
+Sample_4 : Bimanual_Down | Tool: None at 9.91
+Sample_5 : Bimanual_Up | Tool: None at 12.2
+Sample_6 : Bimanual_Up | Tool: None at 14.42
+Sample_7 : Bimanual_Down | Tool: None at 16.75
+Sample_8 : Bimanual_Up | Tool: None at 19.0
+Sample_2 : Bimanual_Down | Tool: None at 5.52 (-3.06)
+Sample_3 : Bimanual_Up | Tool: None at 8.28
+Sample_4 : Bimanual_Up | Tool: None at 10.65
+Sample_5 : Bimanual_Up | Tool: None at 12.97
+Sample_6 : Bimanual_Up | Tool: None at 15.26
+Sample_2 : Bimanual_Up | Tool: None at 5.28 (-2.89)
+Sample_3 : Bimanual_Up | Tool: brush at 7.77
+Sample_4 : Bimanual_Up | Tool: None at 10.07
+Sample_5 : Bimanual_Up | Tool: None at 12.34
+Sample_6 : Bimanual_Up | Tool: None at 14.61
+Sample_7 : Bimanual_Up | Tool: None at 16.97
+Sample_1 : Bimanual_Up | Tool: None at 3.11
+Sample_2 : Bimanual_Up | Tool: None at 5.77
+Sample_3 : Bimanual_Down | Tool: None at 8.24
+Sample_4 : Bimanual_Up | Tool: None at 10.59
+Sample_5 : Bimanual_Up | Tool: None at 13.02
+Sample_1 : Bimanual_Up | Tool: None at 2.92
+Sample_2 : Bimanual_Up | Tool: None at 5.42
+Sample_3 : Bimanual_Up | Tool: None at 7.87
+Sample_4 : Bimanual_Up | Tool: None at 10.36
+Sample_5 : Bimanual_Up | Tool: None at 12.77
+Sample_1 : Bimanual_Up | Tool: None at 2.98
+Sample_2 : Bimanual_Up | Tool: None at 5.43
+Sample_3 : Bimanual_Up | Tool: None at 8.39
+Sample_4 : Bimanual_Up | Tool: None at 10.83
+Sample_5 : Bimanual_Up | Tool: None at 13.11
+Sample_6 : Bimanual_Up | Tool: None at 15.44
