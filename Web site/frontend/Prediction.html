@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prediction</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="Css.css">
+  <script defer src="Java.js"></script>
+</head>
+<body>
+
+  <section id="main-section">
+    <div class="app-container">
+      <!-- Sidebar -->
+      <nav id="sidebar" class="collapsed">
+
+        <div class="sidebar-header">
+          <img src="BRL_logo.png" alt="BRL Logo" class="sidebar-logo">
+          <button id="toggle-btn" class="toggle-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff">
+              <path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/>
+            </svg>
+          </button>
+        </div>
+
+        <div class="sidebar-content">
+            <div class="item-header">
+                <div class="sidebar-item">
+                <i class="fa-solid fa-palette icon"></i>
+                </div>
+                <span class="item-title">Prediction</span>
+            </div>
+            <div class="item-header">
+                <div class="sidebar-item">
+                <i class="fa-solid fa-laptop-code icon"></i>
+                </div>
+                <span class="item-title">Models</span>
+            </div>
+        </div>
+      
+        <div class="sidebar-footer">
+            <div class="item-header">
+                <div class="sidebar-item">
+                <i class="fa-solid fa-person-chalkboard icon"></i>
+                </div>
+                <span class="item-title">Instructions</span>
+            </div>
+            <div class="item-header">
+                <div class="sidebar-item">
+                <i class="fa-solid fa-gear icon" ></i>
+                </div>
+                <span class="item-title">Settings</span>
+            </div>
+        </div>
+        
+      </nav>
+
+      <!-- Main Content -->
+      <main id="main-content" class="collapsed">
+        <section id="home-section">
+          <h1>Welcome to the Prediction Website</h1>
+          <p>Here you will be able to launch the Python models to predict your movements while performing painting tasks.</p>
+        </section>
+
+        <section id="prediction-section" style="display: none;">
+            <div class="prediction-container">
+              <h1 class="prediction-title">Prediction of Painting Tasks</h1>
+
+              <div class="prediction-top">
+                  <div class="left-panel">
+                    <div class="model-selection">
+                      <h2>Choose Models</h2>
+                      <div class="model-buttons">
+                        <button class="model-btn" data-model="LSTM">LSTM</button>
+                        <button class="model-btn" data-model="TCN">TCN</button>
+                        <button class="model-btn" data-model="CNN-GRU">CNN-GRU</button>
+                        <button class="model-btn" data-model="GRU">GRU</button>
+                      </div>
+                    </div>
+
+                    <div class="actions-row">
+                      <div class="info-section">
+                        <i class="fa-solid fa-circle-info info-icon" title="Prerequisites"></i>
+                      </div>
+                      <button id="imu-check-btn" class="action-btn">Check Prerequisites</button>
+                      <button id="imu-start-btn" class="action-btn start-btn" disabled>Start Collecting Data</button>
+                      <button id="imu-pause-btn" class="action-btn imu-pause-btn" disabled>Pause</button>
+                      <button id="imu-stop-btn" class="action-btn imu-stop-btn" disabled>Stop</button>
+                      
+                    </div>
+                    <!-- Main Content -->
+                    <div id="imu-output" class="scroll-output hidden">
+                    </div>
+                  </div>
+
+                  
+                  <div class="camera-container">
+                      <div class="camera-display">
+                          <div class="camera-screen">
+                              <p id="cameraMessage">Camera Stream in real-time</p>
+                              <img id="cameraFeed" style="display:none; width:100%; border-radius:10px;">
+                          </div>
+                      </div>
+
+                      <button id="toggleCameraBtn" class="camera-btn">
+                          <i class="fa-solid fa-camera"></i> Display the camera's screen
+                      </button>
+                  </div>
+
+                </div>
+
+              <!-- Prerequisite Sheet (hidden initially) -->
+              <div id="prerequisite-sheet" class="hidden">
+                <div class="sheet-content">
+                  <h2>Prerequisites</h2>
+                  <ul>
+                    <li>Ensure you have a <strong>Wi-Fi adapter</strong> such as TP-Link. It allows you to connect two Wi-Fi networks to your laptop.</li>
+                    <li>Connect your laptop to the Wi-Fi of the 5 x-IMUs and the Wi-Fi of the Ordro EP6 PLUS camera (5 metres maximum range): 
+                      <ul>
+                        <li>
+                          IMUs wifi: define it in the <strong>x-IMU3 GUI application</strong>
+                          <img src="IMU Wifi.png" alt="IMU WiFi" id="imu-thumb"
+                              style="width:30px; margin-left:10px; cursor:pointer; vertical-align:middle;">
+                        </li>
+                        <div id="imuModal" class="modal">
+                          <span class="close">&times;</span>
+                          <img class="modal-content" id="imuFull">
+                        </div>
+                        <li>Camera wifi: <strong>EP6_PLUS_401229</strong></li>
+                      </ul>
+                    </li>
+                    <li>Wear the 5 x-IMUs by following the position instructions provided on them and the camera around your head.</li>
+                  </ul>
+                  <button id="close-sheet-btn">Close</button>
+                </div>
+              </div>
+
+              <div id="modelContainer">
+                    <div id="modelTerminals" class="terminal-grid">
+                      <p id="messageTerminals">Terminals for models</p>
+                    </div>
+              </div>
+
+              <div class="control-buttons">
+                <button class="pause-btn">Pause</button>
+                <button class="stop-btn" id="stopAll">Stop all models</button>
+              </div>
+
+            </div>
+          </section>
+
+
+        <section id="model-section" style="display: none;">
+          <h1>Models</h1>
+          <p>Here you can manage your trained models and configurations.</p>
+        </section>
+
+        <section id="instruction-section" style="display: none;">
+          <h1>Instructions</h1>
+          <p>Here you can see user guidance or documentation.</p>
+        </section>
+
+        <section id="settings-section" style="display: none;">
+          <h1>Settings</h1>
+          <p>Customize the pages or application settings here.</p>
+        </section>
+      </main>
+
+    </div>
+  </section>
+</body>
+</html>
+
+
