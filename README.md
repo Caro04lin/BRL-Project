@@ -14,11 +14,11 @@ To recognize user actions based on both video frames and IMU data, it combines M
 
 <img width="1186" height="670" alt="Fusion" src="Multimodal-Human-Intention-Detection-for-Upper-Limb-Exoskeleton-Assistance-in-Construction-Work-main/Multimodal_fusion_architecture.png" />
 
-Deep learning models are trained on a custom Database (link:).
+YOLO and MoViNet models are trained on a custom **Paint Database** (link :).  
 
 The system outputs:
 
-Action label: one of 10 classes (e.g., Bimanual_Up, Bimanual_Right, Unimanual_Down).
-Detected tool: Brush, Short roller, or Long roller.
+- **Action label**: one of 10 classes (e.g., Bimanual_Up, Bimanual_Right, Unimanual_Down).
+- **Detected tool**: Brush, Short roller, or Long roller.
 
 
