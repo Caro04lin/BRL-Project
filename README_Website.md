@@ -2,7 +2,7 @@
 
 The developed web site enables users to operate the differents models to predict their motions while performing painting tasks. 
 
-<a href="Web site/TCN_Real_Time_compressed.mp4">
+<a href="Web site/TCN_Real_Time.mp4">
   <img src="Web site/Prediction_interface.png" width="1186" height="670" />
 </a>
 
