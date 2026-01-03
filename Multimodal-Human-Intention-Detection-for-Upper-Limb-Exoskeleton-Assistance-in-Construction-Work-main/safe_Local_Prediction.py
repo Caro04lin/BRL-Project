@@ -1,3 +1,5 @@
+# Prediction code using LSTM for online testing
+
 if __name__ == "__main__" :
     print("\033cStarting ...\n") # Clear Terminal
 
