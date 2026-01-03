@@ -1,3 +1,5 @@
+# Real-time prediction code using CNN-GRU for painting tasks and for the website
+
 if __name__ == "__main__":
     print("\033cStarting ...\n")  # Clear terminal
 
