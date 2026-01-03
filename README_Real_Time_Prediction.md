@@ -14,7 +14,7 @@ To recognize user actions based on both video frames and IMU data, it combines M
 
 <img width="1186" height="670" alt="Fusion" src="Multimodal-Human-Intention-Detection-for-Upper-Limb-Exoskeleton-Assistance-in-Construction-Work-main/Multimodal_fusion_architecture.png" />
 
-YOLO and MoViNet models are trained on a custom **Paint Database** (link :).  
+The YOLO and MoViNet models are trained on the **Paint Tools Database**, and the four deep learning models are trained on the **Action Dataset**. (link : https://uweacuk-my.sharepoint.com/personal/ying4_liu_live_uwe_ac_uk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fying4%5Fliu%5Flive%5Fuwe%5Fac%5Fuk%2FDocuments%2FDataset&ga=1).  
 
 The system outputs:
 
