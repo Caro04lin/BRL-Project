@@ -10,7 +10,12 @@ A live feed from the wireless camera is possible, allowing the user to adjust th
 
 ## How to Run the Web site
 
-Install **Docker Desktop** App
+1. Install **Docker Desktop** App and open it.
+2. In the terminal (PowerShell for windows), activate the virtual environment with:
+
+
+
+
 
 
 ### How to use the web site for action prediction in construction painting sector
