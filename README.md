@@ -10,5 +10,4 @@ including the Long Short-Term Memory (LSTM), Gated Recurrent Units (GRU), Convol
 
 the models, including the Long Short-Term Memory (LSTM), Gated Recurrent Units (GRU), Convolutional Neural Network–Gated Recurrent Unit (CNN-GRU), and Temporal Convolutional Network (TCN), were developed and compared to each other. 
 
-Multimodal_fusion_architecture.png
-<img width="1186" height="670" alt="Fusion" src="https://github.com/user-attachments/assets/4c4fbc0b-12a5-4260-8239-66652c740546" />
+<img width="1186" height="670" alt="Fusion" src="Multimodal-Human-Intention-Detection-for-Upper-Limb-Exoskeleton-Assistance-in-Construction-Work-main/Multimodal_fusion_architecture.png" />
