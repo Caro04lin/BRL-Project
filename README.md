@@ -5,7 +5,7 @@ This project provide four **real-time human intention recognition system** for a
 It uses pre-trained models:
 - **YOLO** model for detecting painting tools and hands.
   
-To recognize user actions based on both video frames and IMU data, it combines MoViNet with four deep learning models:
+To recognize user actions based on both video frames and IMU data, it combines MoViNet with one of the four deep learning models:
 
 - **Long Short-Term Memory** (LSTM)
 - **Gated Recurrent Units** (GRU)
@@ -15,6 +15,7 @@ To recognize user actions based on both video frames and IMU data, it combines M
 <img width="1186" height="670" alt="Fusion" src="Multimodal-Human-Intention-Detection-for-Upper-Limb-Exoskeleton-Assistance-in-Construction-Work-main/Multimodal_fusion_architecture.png" />
 
 Deep learning models are trained on a custom Database (link:).
+
 The system outputs:
 
 Action label: one of 10 classes (e.g., Bimanual_Up, Bimanual_Right, Unimanual_Down).
