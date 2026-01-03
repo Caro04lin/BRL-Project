@@ -20,19 +20,19 @@ A live feed from the wireless camera is possible, allowing the user to adjust th
    ```bash
    .\launch_backend.bat 
    ```
-3. Go to Docker Desktop, then enter in website and click on the link below frontend : http://localhost:8080/
+3. Go to Docker Desktop, then enter in website and click on the link below frontend : `http://localhost:8080/`
 
 ### How to use the web site for action prediction 
 
 1. Choose one deep learning model between:
-- LSTM
-- GRU
-- CNN-GRU
-- TCN
+- **LSTM**
+- **GRU**
+- **CNN-GRU**
+- **TCN**
 
-2. Ensure all prerequisites are completed where instructions are provided in the information icon.
-3. Click on the button "Check Prerequisites", which verify that all conditions were filled.
-   Option: Click on the button "Display the camera's screen" to see the screen of the wireless camera.
-4. Click on the button "Start the Collecting Data" to start motion prediction. Prediction can be paused or stopped using the "Pause" and "Stop" buttons. If multiple models are runned at the same time, the predictions can be stopped with the "Stop all models" button. 
+2. Ensure all prerequisites are completed where instructions are provided in the **information icon**.
+3. Click on the button **Check Prerequisites**, which verify that all conditions were filled.
+   Option: Click on the button **Display the camera's screen** to see the screen of the wireless camera.
+4. Click on the button **Start the Collecting Data** to start motion prediction. Prediction can be paused or stopped using the **Pause** and **Stop** buttons. If multiple models are runned at the same time, the predictions can be stopped with the **Stop all models** button. 
 
 
