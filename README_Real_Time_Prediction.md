@@ -26,7 +26,7 @@ The system outputs:
 1. Place the following pre-trained models in the `Pre Trained Model/` folder:
 - YOLO model (`best.pt`)
 - Fusion model using:
-  -LSTM: `fusion_movinet_lstm_final.pt`
+  - LSTM: `fusion_movinet_lstm_final.pt`
   - GRU: `fusion_movinet_gru_final.pt`
   - CNN-GRU: `fusion_movinet_cnn_gru_final_2.pt`
   - TCN: `fusion_movinet_tcn_final_9.pt`
