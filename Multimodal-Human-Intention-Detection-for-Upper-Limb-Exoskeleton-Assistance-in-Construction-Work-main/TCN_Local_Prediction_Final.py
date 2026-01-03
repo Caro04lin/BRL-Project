@@ -1,4 +1,4 @@
-# TCN_Local_Prediction_Final.py
+# Prediction code using TCN for online testing
 
 if __name__ == "__main__":
     print("\033cStarting ...\n")  # Clear terminal
