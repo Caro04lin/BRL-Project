@@ -1,3 +1,4 @@
+# Real-time prediction code using TCN for painting tasks and for the website
 if __name__ == "__main__":
     print("\033cStarting ...\n")  # Clear terminal
 
