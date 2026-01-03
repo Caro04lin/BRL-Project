@@ -24,7 +24,7 @@ A **live feed** from the wireless camera is possible, allowing the user to adjus
 
 ## How to use the web site for action prediction 
 
-1. Choose one deep learning model between:
+1. Choose one or multiple deep learning models between:
 - **LSTM**
 - **GRU**
 - **CNN-GRU**
