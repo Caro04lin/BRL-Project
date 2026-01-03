@@ -8,9 +8,12 @@ Click the image below to watch a video demonstrating how the website is used to 
   <img src="Web site/Prediction_interface.png" width="1186" height="670" />
 </a>
 
+
 Clicking on the **information icon** displays the prerequisites. The message details the instructions about the IMU Wi-Fi configuration, the recommended use of a Wi-Fi adapter and the connexion of the IMUs and the wireless camera to the laptop. When all prerequisites are completed, the **battery levels** of the five IMUs and their **estimated autonomy** are displayed, preventing unexpected disconnections during motion detection.
 
+
 <img width="1186" height="670" alt="Website" src="Web site/Prerequisites.png" />
+
 
 A **live feed** from the wireless camera is possible, allowing the user to adjust the camera position and other users to view the current user's movements on the website.
 
