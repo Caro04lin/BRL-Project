@@ -31,7 +31,7 @@ The system outputs:
   - CNN-GRU: `fusion_movinet_cnn_gru_final_2.pt`
   - TCN: `fusion_movinet_tcn_final_9.pt`
      
-3. Start the real-time prediction script:
+2. Start the real-time prediction script:
 
 For LSTM: 
 ```bash
