@@ -33,6 +33,14 @@ The system outputs:
      
 2. Start the real-time prediction script:
 
+First, activate the virtual environment (on windows) with: 
+
+```bash
+(path of the project)\Multimodal-Human-Intention-Detection-for-Upper-Limb-Exoskeleton-Assistance-in-Construction-Work-main\.venv\Scripts\Activate.ps1" 
+```
+
+Then, the prediction code: 
+
 For LSTM: 
 ```bash
 python LSTM_Real_Time.py
