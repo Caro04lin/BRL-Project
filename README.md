@@ -10,3 +10,5 @@ including the Long Short-Term Memory (LSTM), Gated Recurrent Units (GRU), Convol
 
 the models, including the Long Short-Term Memory (LSTM), Gated Recurrent Units (GRU), Convolutional Neural Network–Gated Recurrent Unit (CNN-GRU), and Temporal Convolutional Network (TCN), were developed and compared to each other. 
 
+Multimodal_fusion_architecture.png
+
