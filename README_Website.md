@@ -1,4 +1,4 @@
-# Website
+# Web site
 
 The developed web site enables users to operate the differents models to predict their motions while performing painting tasks. 
 
