@@ -22,7 +22,7 @@ A **live feed** from the wireless camera is possible, allowing the user to adjus
    ```
 3. Go to Docker Desktop, then enter in website and click on the link below frontend : `http://localhost:8080/`
 
-### How to use the web site for action prediction 
+## How to use the web site for action prediction 
 
 1. Choose one deep learning model between:
 - **LSTM**
