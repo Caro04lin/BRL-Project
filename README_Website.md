@@ -8,7 +8,14 @@ Clicking on the **information icon** displays the prequerisites. The message det
 
 A **live feed** from the wireless camera is possible, allowing the user to adjust the camera position and other users to view the current user's movements on the website.
 
-For a selected model, the website displays the number of hands used, the predicted action performed, the tool held in the hands, and the prediction time in the terminal. All performed motions and tool usages include descriptive tooltips that appear when hovering over the corresponding icons.
+For a selected model, the website displays:
+- the number of hands used
+- the predicted action performed
+- the tool held in the hands
+- the prediction time
+in the terminal.
+
+All performed motions and tool usages include descriptive tooltips that appear when hovering over the corresponding icons.
 
 ## How to Run the Web site
 
