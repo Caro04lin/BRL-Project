@@ -51,6 +51,9 @@ All performed motions and tool usages include descriptive tooltips that appear w
   Your browser does not support the video tag.
 </video>
 
-[▶️ Demo video](Web site/TCN_Real_Time_compressed.mp4)
+<video width="1186" height="670" controls>
+  <source src="Web site/TCN_Real_Time_compressed.mp4" type="video/mp4">
+</video>
+
 
 
