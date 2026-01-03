@@ -16,15 +16,11 @@ A live feed from the wireless camera is possible, allowing the user to adjust th
 ```bash
 docker-compose up -d
 ```
-  - execute the following file to start the backend services:
+   - execute the following file to start the backend services:
 ```bash
 .\launch_backend.bat 
 ```
-3. A
-
-
-
-
+3. Go to Docker Desktop, then enter in website and click on the link below frontend : http://localhost:8080/
 
 ### How to use the web site for action prediction in construction painting sector
 
