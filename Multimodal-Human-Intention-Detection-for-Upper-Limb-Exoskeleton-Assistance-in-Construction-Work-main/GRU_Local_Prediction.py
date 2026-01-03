@@ -1,4 +1,4 @@
-# GRU_Local_Prediction.py
+# Prediction code using GRU for online testing
 
 if __name__ == "__main__":
     print("\033cStarting ...\n")  # Clear terminal
