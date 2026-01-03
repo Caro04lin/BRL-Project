@@ -4,7 +4,7 @@ The developed web site enables users to operate the differents models to predict
 
 <img width="1186" height="670" alt="Website" src="Web site/Prediction_interface.png" />
 
-Clicking on the information icon displays the prequerisites. The message details the instructions about the IMU Wi-Fi configuration, the recommended use of a Wi-Fi adapter and the connexion of the IMUs and the wireless camera to the laptop.
+Clicking on the information icon displays the prequerisites. The message details the instructions about the IMU Wi-Fi configuration, the recommended use of a Wi-Fi adapter and the connexion of the IMUs and the wireless camera to the laptop. When all prequesites are completed, the battery levels of the five IMUs and their estimated autonomy are displayed, preventing unexpected disconnections during motion detection.
 
 A live feed from the wireless camera is possible, allowing the user to adjust the camera position and other users to view the current user's movements on the website.
 
@@ -22,10 +22,17 @@ A live feed from the wireless camera is possible, allowing the user to adjust th
    ```
 3. Go to Docker Desktop, then enter in website and click on the link below frontend : http://localhost:8080/
 
-### How to use the web site for action prediction in construction painting sector
+### How to use the web site for action prediction 
 
-Choose one deep learning model between:
+1. Choose one deep learning model between:
 - LSTM
 - GRU
 - CNN-GRU
 - TCN
+
+2. Ensure all prerequisites are completed where instructions are provided in the information icon.
+3. Click on the button "Check Prerequisites", which verify that all conditions were filled.
+   Option: Click on the button "Display the camera's screen" to see the screen of the wireless camera.
+4. Click on the button "Start the Collecting Data" to start motion prediction. Prediction can be paused or stopped using the "Pause" and "Stop" buttons. If multiple models are runned at the same time, the predictions can be stopped with the "Stop all models" button. 
+
+
