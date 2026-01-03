@@ -46,9 +46,8 @@ All performed motions and tool usages include descriptive tooltips that appear w
    Option: Click on the button **Display the camera's screen** to see the screen of the wireless camera.
 4. Click on the button **Start the Collecting Data** to start motion prediction. Prediction can be paused or stopped using the **Pause** and **Stop** buttons. If multiple models are runned at the same time, the predictions can be stopped with the **Stop all models** button.
 
-<video width="1186" height="670" controls>
-  <source src="Web site/TCN_Real_Time_compressed.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+<video controls>
+  <source src="Web site/demo.mp4" type="video/mp4">
 </video>
 
 <video width="1186" height="670" controls>
