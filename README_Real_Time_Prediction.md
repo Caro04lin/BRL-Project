@@ -24,7 +24,7 @@ The system outputs:
 ## How to Run Real-Time Detection
 
 1. Place the following pre-trained models in the `Pre Trained Model/` folder:
-- YOLO model (`best.pt`)
+- YOLO model: `best.pt`
 - Fusion model using:
   - LSTM: `fusion_movinet_lstm_final.pt`
   - GRU: `fusion_movinet_gru_final.pt`
