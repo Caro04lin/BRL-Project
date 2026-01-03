@@ -2,7 +2,9 @@
 
 The developed web site enables users to operate the differents models to predict their motions while performing painting tasks. 
 
-<img width="1186" height="670" alt="Website" src="Web site/Prediction_interface.png" />
+<a href="Web site/TCN_Real_Time_compressed.mp4">
+  <img src="Web site/Prediction_interface.png" width="1186" height="670" />
+</a>
 
 Clicking on the **information icon** displays the prerequisites. The message details the instructions about the IMU Wi-Fi configuration, the recommended use of a Wi-Fi adapter and the connexion of the IMUs and the wireless camera to the laptop. When all prerequisites are completed, the **battery levels** of the five IMUs and their **estimated autonomy** are displayed, preventing unexpected disconnections during motion detection.
 
@@ -46,13 +48,6 @@ All performed motions and tool usages include descriptive tooltips that appear w
    Option: Click on the button **Display the camera's screen** to see the screen of the wireless camera.
 4. Click on the button **Start the Collecting Data** to start motion prediction. Prediction can be paused or stopped using the **Pause** and **Stop** buttons. If multiple models are runned at the same time, the predictions can be stopped with the **Stop all models** button.
 
-<a href="Web site/TCN_Real_Time_compressed.mp4">
-  <img src="Web site/TCN_Real_Time_compressed.mp4" width="1186" height="670" />
-</a>
-
-<video width="1186" height="670" controls>
-  <source src="Web site/TCN_Real_Time_compressed.mp4" type="video/mp4">
-</video>
 
 
 
